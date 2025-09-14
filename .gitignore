@@ -25,3 +25,5 @@ xcode/
 _build
 GEMINI.md
 doc/#*.lyx#
+out/
+html/

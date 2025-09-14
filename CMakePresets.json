@@ -1,0 +1,24 @@
+{
+    "version": 8,
+    "configurePresets": [
+        {
+            "name": "CMakePresets.json",
+            "displayName": "Clang 17.0.0 arm64-apple-darwin24.6.0",
+            "description": "Using compilers: C = /usr/bin/clang, CXX = /usr/bin/clang++",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/install",
+                "CMAKE_C_COMPILER": "/usr/bin/clang",
+                "CMAKE_CXX_COMPILER": "/usr/bin/clang++",
+                "CMAKE_BUILD_TYPE": "Release",
+                "GTSAM_PYTHON_VERSION": "3.12.2",
+                "GTSAM_BUILD_PYTHON": "ON",
+                "GTSAM_BUILD_EXAMPLES": "ON",
+                "GTSAM_BUILD_TESTS": "ON",
+                "GTSAM_GENERATE_DOC_XML": "ON",
+                "GTSAM_ENABLE_BOOST_SERIALIZATION": "ON",
+                "GTSAM_USE_BOOST_FEATURES": "ON"
+            }
+        }
+    ]
+}

@@ -10,7 +10,7 @@ set (GTSAM_VERSION_PATCH 0)
 set (GTSAM_PRERELEASE_VERSION "a0")
 math (EXPR GTSAM_VERSION_NUMERIC "10000 * ${GTSAM_VERSION_MAJOR} + 100 * ${GTSAM_VERSION_MINOR} + ${GTSAM_VERSION_PATCH}")
 
-# Set the version string for the library. 
+# Set the version string for the library.
 #
 # If the environment variable DEVELOP is set, then the version string will be
 # "MAJOR.MINORprerelease.devTIMESTAMP". TIMESTAMP is another environment variable that should be set to the current
